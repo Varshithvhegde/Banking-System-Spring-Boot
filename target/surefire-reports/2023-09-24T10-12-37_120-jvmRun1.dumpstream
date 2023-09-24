@@ -1,0 +1,89 @@
+# Created at 2023-09-24T10:15:49.466
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:386)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+
+# Created at 2023-09-24T10:15:49.989
+Unexpected IOException: 5,1,com.kpit.SavingsAccountServiceTest,readAllData,null,null,null
+
+
+# Created at 2023-09-24T10:15:50.012
+Unexpected IOException with stream: All Accounts ....
+
+
+# Created at 2023-09-24T10:15:50.017
+Unexpected IOException with stream: Account Number : 2
+
+
+# Created at 2023-09-24T10:15:50.018
+Unexpected IOException with stream: Account Holder Name : Shravan
+
+
+# Created at 2023-09-24T10:15:50.020
+Unexpected IOException with stream: Account Balance : 1000.0
+
+
+# Created at 2023-09-24T10:15:50.021
+Unexpected IOException with stream: **********************************
+
+
+# Created at 2023-09-24T10:15:50.034
+Unexpected IOException: 6,1,com.kpit.SavingsAccountServiceTest,readAllData,null,null,null
+
+
+# Created at 2023-09-24T10:15:50.037
+Unexpected IOException: 5,1,com.kpit.SavingsAccountServiceTest,deleteAccount,null,null,null
+
+
+# Created at 2023-09-24T10:15:50.041
+Unexpected IOException with stream: Enter the account for the Deleteion 
+
+
+# Created at 2023-09-24T10:15:50.047
+Unexpected IOException: 7,1,com.kpit.SavingsAccountServiceTest,deleteAccount,null,null,null,null,SavingsAccountServiceTest.deleteAccount:59 \00BB NoSuchElement,java.util.NoSuchElementException\000A\0009at com.kpit.SavingsAccountServiceTest.deleteAccount(SavingsAccountServiceTest.java:59)\000A
+
+
+# Created at 2023-09-24T10:15:50.050
+Unexpected IOException: 5,1,com.kpit.SavingsAccountServiceTest,addNewAccount,null,null,null
+
+
+# Created at 2023-09-24T10:15:50.054
+Unexpected IOException with stream: Maanikya
+
+
+# Created at 2023-09-24T10:15:50.076
+Unexpected IOException with stream: Account is checked
+
+
+# Created at 2023-09-24T10:15:50.077
+Unexpected IOException with stream: New Account Added Successfully
+
+
+# Created at 2023-09-24T10:15:50.078
+Unexpected IOException with stream: New Account Added Successfully....
+
+
+# Created at 2023-09-24T10:15:50.082
+Unexpected IOException: 6,1,com.kpit.SavingsAccountServiceTest,addNewAccount,null,null,null
+
+
+# Created at 2023-09-24T10:15:50.087
+Unexpected IOException: 5,1,com.kpit.SavingsAccountServiceTest,updateAccount,null,null,null
+
+
+# Created at 2023-09-24T10:15:50.091
+Unexpected IOException with stream: Enter the account for the updation 
+
+
+# Created at 2023-09-24T10:15:50.096
+Unexpected IOException: 7,1,com.kpit.SavingsAccountServiceTest,updateAccount,null,null,null,null,SavingsAccountServiceTest.updateAccount:47 \00BB NoSuchElement,java.util.NoSuchElementException\000A\0009at com.kpit.SavingsAccountServiceTest.updateAccount(SavingsAccountServiceTest.java:47)\000A
+
+
+# Created at 2023-09-24T10:15:50.097
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.kpit.SavingsAccountServiceTest,null,null,null
+
+
